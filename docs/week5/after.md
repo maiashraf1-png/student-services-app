@@ -14,3 +14,5 @@ The remaining Pylint messages on fees.py are only missing docstrings.
 
 ## Pairing reflection
 Working as driver and navigator helped us catch mistakes quickly. The navigator noticed naming problems and missing edge cases while the driver was typing. Switching roles kept both of us involved, and the tests let us change the code without fear of breaking it.
+
+Malak's reflection: As the navigator, I caught naming mistakes and missing edge cases early, and switching roles with Mai helped us both understand the code and trust our tests while refactoring.
