@@ -1,6 +1,6 @@
-
 import os
 import math
+
 
 def calc(d, t, y, s, disc, extra=[]):
     # t: 1=student, 2=staff child, 3=scholarship
@@ -23,6 +23,7 @@ def calc(d, t, y, s, disc, extra=[]):
     tmp = total * 1.0
     return total
 
+
 def report(d, t, y, s, disc):
     x = calc(d, t, y, s, disc)
     if t == 1:
@@ -32,6 +33,7 @@ def report(d, t, y, s, disc):
     if x > 6000:
         print("High fee")
     return x
+
 
 def ProcessAll(students):
     for st in students:

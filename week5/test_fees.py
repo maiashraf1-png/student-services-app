@@ -1,4 +1,3 @@
-
 import pytest
 
 from fees import Course, StudentType, process_all, tuition_fee
@@ -46,10 +45,13 @@ def test_same_result_as_legacy(hours, code, kind, summer):
 
 
 def test_large_fee_gets_reduction():
-    assert tuition_fee(
-        courses(6, 6, 6),
-        StudentType.REGULAR,
-    ) == 6100
+    assert (
+        tuition_fee(
+            courses(6, 6, 6),
+            StudentType.REGULAR,
+        )
+        == 6100
+    )
 
 
 def test_scholarship_student_is_not_skipped():
