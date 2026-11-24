@@ -13,7 +13,4 @@ Note: Ruff reported 17 problems instead of 16 because the newer Ruff version als
 The remaining Pylint messages on fees.py are only missing docstrings.
 
 ## Pairing reflection
-
-(اكتبي هنا 3-4 جمل عن تجربتك مع ملك كـ driver/navigator.)
-
-Malak's line: (سطر ملك.)
+Working as driver and navigator helped us catch mistakes quickly. The navigator noticed naming problems and missing edge cases while the driver was typing. Switching roles kept both of us involved, and the tests let us change the code without fear of breaking it.
